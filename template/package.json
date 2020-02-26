@@ -1,0 +1,10 @@
+{
+    "name": "{{ name }}",
+    "version": "{{ version }}",
+    "private": true,
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not ie <= 8"
+    ]
+  }

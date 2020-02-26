@@ -1,0 +1,16 @@
+{
+    "prompts": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "label": "项目名称"
+        },
+        "version": {
+            "type": "string",
+            "required": true,
+            "label": "项目初始版本",
+            "default": "0.0.1"
+        }
+    },
+    "completeMessage": "{{#inPlace}}npm i -g serve\n  cd {{destDirName}}\n  serve{{/inPlace}}"
+}
