@@ -10,6 +10,10 @@
             "required": true,
             "label": "Project Version",
             "default": "0.0.1"
+        },
+        "author": {
+            "type": "string",
+            "label": "Author"
         }
     },
     "completeMessage": "To get started:\n\n  npm i -g serve\n  cd {{destDirName}}\n  serve"
