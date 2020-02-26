@@ -1,0 +1,1 @@
+vue init defypro/vue-requirejs vue-requirejs-app
