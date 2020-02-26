@@ -12,5 +12,5 @@
             "default": "0.0.1"
         }
     },
-    "completeMessage": "{{#inPlace}}npm i -g serve\n  cd {{destDirName}}\n  serve{{/inPlace}}"
+    "completeMessage": "npm i -g serve\n  cd {{destDirName}}\n  serve"
 }
