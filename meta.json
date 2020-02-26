@@ -3,14 +3,14 @@
         "name": {
             "type": "string",
             "required": true,
-            "label": "项目名称"
+            "label": "Project Name"
         },
         "version": {
             "type": "string",
             "required": true,
-            "label": "项目初始版本",
+            "label": "Project Version",
             "default": "0.0.1"
         }
     },
-    "completeMessage": "npm i -g serve\n  cd {{destDirName}}\n  serve"
+    "completeMessage": "To get started:\n\n  npm i -g serve\n  cd {{destDirName}}\n  serve"
 }
